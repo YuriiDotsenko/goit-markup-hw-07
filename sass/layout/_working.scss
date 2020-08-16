@@ -7,12 +7,12 @@
   justify-content: center;
 }
 
-.size-two:not(:last-child) {
-  margin-right: 30px;
-}
-
 .size-two {
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .what-we-do-image {

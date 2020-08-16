@@ -29,10 +29,10 @@
 
 .size {
   width: 270px;
-}
 
-.size:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .primary-margin:not(:last-child) {
@@ -45,10 +45,7 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-light-theme-color);
-}
-
-.main-title {
+  color: $title-light-theme-color;
   margin-bottom: 50px;
 }
 
@@ -56,13 +53,10 @@
   display: flex;
   margin-top: 55px;
   margin-bottom: 10px;
-}
-
-.title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-light-theme-color);
+  color: $title-light-theme-color;
 }

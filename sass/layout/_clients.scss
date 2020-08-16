@@ -17,17 +17,14 @@
   height: 90px;
   justify-content: center;
   align-items: center;
-  border: 1px solid #afb1b8;
+  border: 1px solid $secondary-color;
   border-radius: 4px;
-}
-
-.imeges {
-  fill: #afb1b8;
+  fill: $secondary-color;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.imeges:hover,
-.imeges:focus {
-  border: 1px solid #2196f3;
-  fill: #2196f3;
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    fill: $accent-color;
+  }
 }
