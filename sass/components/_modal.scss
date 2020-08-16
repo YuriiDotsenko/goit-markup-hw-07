@@ -21,7 +21,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $title-light-theme-color;
 }
 
 .close-button {
@@ -34,7 +34,7 @@
   border-radius: 50%;
   background-color: transparent;
   cursor: pointer;
-  background: #ffffff;
+  background: $title-dark-theme-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -52,7 +52,7 @@
 }
 
 .close-button:hover {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 
 .form {
@@ -63,7 +63,7 @@
   top: 10%;
   left: 50%;
   transform: translate(-50%);
-  background-color: #ffffff;
+  background-color: $title-dark-theme-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -94,7 +94,7 @@
 
 .form-input:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: $accent-color;
 }
 
 .icon-hero {
@@ -107,12 +107,12 @@
 }
 
 .form-input:focus ~ .icon-hero {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
-  color: #2196f3;
+  color: $accent-color;
   transform: translateY(-40px);
   left: 22px;
 }
@@ -133,7 +133,7 @@
 
 .form-messege:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: $accent-color;
 }
 
 .checkbox {
@@ -149,7 +149,7 @@
   display: flex;
   left: 50px;
   bottom: 125px;
-  border: 2px solid #212121;
+  border: 2px solid $title-light-theme-color;
   border-radius: 2px;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -160,8 +160,8 @@
 }
 
 .checkbox:checked + .checkbox-icon {
-  border-color: #2196f3;
-  background-color: #2196f3;
+  border-color: $accent-color;
+  background-color: $accent-color;
   background-size: contain;
   background-origin: border-box;
 }
@@ -173,7 +173,7 @@
 }
 
 .conditions {
-  color: #2196f3;
+  color: $accent-color;
 }
 
 .button-modal {
@@ -181,7 +181,7 @@
   left: 160px;
   bottom: 40px;
   border: none;
-  background: #2196f3;
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }

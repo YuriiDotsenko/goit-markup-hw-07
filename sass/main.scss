@@ -1,8 +1,18 @@
+@import "./base/base";
+@import "./utils/normalize.scss";
+@import "./utils/var.scss";
+@import "./components/logo";
+@import "./components/conteiner";
+@import "./components/section";
+@import "./components/modal";
+
 @import "./layout/header";
 @import "./layout/hero";
-@import "./layout/modal";
+@import "./components/modal";
 @import "./layout/about";
 @import "./layout/working";
 @import "./layout/team";
 @import "./layout/clients";
 @import "./layout/footer";
+
+@import "./layout/portfolio";
